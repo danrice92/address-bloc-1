@@ -175,4 +175,5 @@ class MenuController
         search_submenu(entry)
     end
   end
+  
 end
