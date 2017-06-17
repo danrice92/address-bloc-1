@@ -176,4 +176,3 @@ class MenuController
     end
   end
 end
-
