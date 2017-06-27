@@ -20,6 +20,6 @@ Entry.find_each(start: 1, batch_size: 10) do |row|
   puts row
 end
 
-Entry.find_in_batches(6, 30) do |contacts|
+Entry.find_in_batches(start: 6, batch_size: 30) do |contacts|
   contacts.each { |contact| puts contact }
 end
