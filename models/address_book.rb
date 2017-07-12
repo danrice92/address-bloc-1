@@ -4,7 +4,7 @@ require 'bloc_record/base'
 
 class AddressBook < BlocRecord::Base
 
-  def add_entry(name, phone_number, email)
+  def add_entry(name, phone, email)
     Entry.create(name: name, phone_number: phone, email: email)
   end
 
