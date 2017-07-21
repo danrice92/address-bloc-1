@@ -18,6 +18,6 @@ book = AddressBook.create(name: 'My Address Book')
 
 all_fellows = Entry.all
 
-puts all_fellows.not(name: "David", email: "david@bloc.com")
+puts all_fellows.not(name: "David")
 
 # puts Entry.all
