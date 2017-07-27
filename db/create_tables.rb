@@ -22,3 +22,5 @@ db.execute <<-SQL
     FOREIGN KEY (address_book_id) REFERENCES address_book(id)
   );
 SQL
+
+puts "Made all the tables"
